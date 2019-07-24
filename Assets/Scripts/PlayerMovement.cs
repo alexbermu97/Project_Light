@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     //ESTE SCRIPT CONTROLA ÚNICAMENTE EL MOVIMIENTO DEL JUGADOR, TANTO CON MANDO COMO CON PANTALLA TÁCTIL
     public Rigidbody2D rb;
     public float speed;
+
+    [SerializeField]
     Vector2 movDir;
     
     void Start()
